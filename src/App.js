@@ -1,10 +1,14 @@
-
-import './App.css';
+import { useState } from 'react';
+import FetchData from './FetchData';
 
 function App() {
-  return (
-    <div >
 
+
+  return (
+    <div>
+ 
+
+      <FetchData  />
     </div>
   );
 }
