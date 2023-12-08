@@ -1,14 +1,9 @@
-import { useState } from 'react';
-import FetchData from './FetchData';
+import FetchData from "./FetchData";
 
 function App() {
-
-
   return (
     <div>
- 
-
-      <FetchData  />
+      <FetchData />
     </div>
   );
 }
