@@ -11,7 +11,7 @@ const FetchData = () => {
   const getData = async () => {
     try {
       const response = await axios.get(
-        ` https://gnews.io/api/v4/search?q=${query}&apikey=82afbdff469f99cf76100a398348b306`
+        ` https://gnews.io/api/v4/search?q=${query}&apikey=${APİ_KEY}`
       );
 
       setNews(response.data.articles || []);
